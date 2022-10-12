@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+
+html{
+    font-family: 'Righteous', cursive;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: aquamarine;
+    font-family: 'Righteous', cursive;
+}
+
+.container{
+    margin: auto;
+    text-align: center;
+    width: 80%;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+table, td, th{
+    margin: auto;
+    margin-top: 20px;
+    border-collapse:collapse;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+table{
+    margin-bottom: 20px;
+}
+
+th{
+    background-color: rgb(105, 221, 182);
+    color: rgb(255, 255, 255);
+}
+
+.sidebar {
+    text-align: center;
+    height: 100%;
+    width: 0; 
+    position: fixed; 
+    top: 0;
+    right: 0;
+    background-color:rgb(67, 139, 115);
+    color: rgb(196, 174, 135);
+    padding-top: 60px; 
+    transition: 0.5s; 
+  }
+
+  button{
+    border-radius: 5px;
+    margin: 2px;
+  }
+
+  td:hover {background-color: #D6EEEE;}
+
+.next-page-btn{
+    margin-top: 20px;
+}
+
+.book-name-td{
+    width: 300px;
+    font-weight: bold;
+}
+
+.filter-text{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 30px;
+    width: 200px;
+    font-weight: bolder;
+
+}
+
+.page-number{
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rgb(76, 194, 154);
+    cursor: pointer;
+}
+
+.on-rate-btn{
+    height: 22px;
+    width: 22px;
+    font-weight: bold;
+}
+
+.layout-btn img{
+    width: 30px;
+    height: 30px;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 250px;
+    height: 330px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+
+  .card img{
+    width: 90px;
+    height: 90px;
+  }
