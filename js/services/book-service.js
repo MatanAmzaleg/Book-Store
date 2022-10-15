@@ -108,9 +108,13 @@ function _createBook(bookName = makeTitle(), price = getRandomIntInclusive(7, 25
         id: makeId(),
         bookName: bookName,
         price: price,
-        imgUrl: `img/${bookName}.png`,
+        imgUrl: `img/book${getRandomIntInclusive(1, 5)}.png`,
         rate: rate
     }
+}
+
+function getFilterBy(){
+    return gFilterBy
 }
 
 function _saveBooksToStorage() {

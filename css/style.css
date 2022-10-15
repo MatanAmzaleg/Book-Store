@@ -2,6 +2,10 @@
 
 
 
+body.rtl{
+    direction: rtl;
+}
+
 html{
     font-family: 'Righteous', cursive;
 }
@@ -10,7 +14,6 @@ body{
     height: 100%;
 }
 body{
-    background-color: aquamarine;
     font-family: 'Righteous', cursive;
 }
 
@@ -20,26 +23,25 @@ body{
     width: 80%;
 }
 
-h1{
-    font-size: 4rem;
+.btn-outline-info{
+    width: 38px;
+    height: 38px;
+}
+
+button{
+    margin: 5px;
 }
 
 table, td, th{
     margin: auto;
-    margin-top: 20px;
-    border-collapse:collapse;
-    border: 1px solid black;
-    padding: 10px;
+    margin-top: 80px;
 }
 
-table{
-    margin-bottom: 20px;
+.book-rate-span{
+font-weight: bolder;
+margin: 8px;
 }
 
-th{
-    background-color: rgb(105, 221, 182);
-    color: rgb(255, 255, 255);
-}
 
 .sidebar {
     text-align: center;
@@ -52,6 +54,7 @@ th{
     color: rgb(196, 174, 135);
     padding-top: 60px; 
     transition: 0.5s; 
+    overflow: hidden;
   }
 
   button{
@@ -59,7 +62,6 @@ th{
     margin: 2px;
   }
 
-  td:hover {background-color: #D6EEEE;}
 
 .next-page-btn{
     margin-top: 20px;
@@ -71,27 +73,22 @@ th{
 }
 
 .filter-text{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     margin-top: 20px;
-    height: 30px;
-    width: 200px;
+    height: 50px;
+    width: 300px;
     font-weight: bolder;
+    border-radius: 5px;
 
 }
 
 .page-number{
-    font-weight: bold;
+    font-weight: bolder;
+    margin: 10px;
 }
 
-button:hover{
-    background-color: rgb(76, 194, 154);
-    cursor: pointer;
-}
-
-.on-rate-btn{
-    height: 22px;
-    width: 22px;
-    font-weight: bold;
+.layout-btn{
+    margin: 30px;
 }
 
 .layout-btn img{
@@ -105,15 +102,40 @@ button:hover{
 }
 
 .card {
-    width: 250px;
+    width: 320px;
     height: 330px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
-    text-align: center;
-    background-color: #f1f1f1;
+    border-radius: 10px;
   }
 
   .card img{
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 10px;
+
+    filter: drop-shadow(20px 10px 4px grey);
+  }
+
+  .prev-page-btn , .next-page-btn{
+    width: 140px;
+  }
+
+  .btn-success{
+margin: 5px;
+  }
+
+  .trans-selector{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 40px;
+    border-radius: 7px;
+  }
+
+  .bolded-price{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-top: 10px;
   }
